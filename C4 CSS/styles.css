@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+.miTexto {
+    font-size: 15px;
+    color: blueviolet;
+}
+
+#titulo {
+    font-size: 5em;
+}
+
+.imagen {
+    width: 17em;
+    height: 17em;
+}
+
+.tarjeta {
+    width: fit-content;
+    border: 20px solid green;
+    border-radius: 10%;
+    padding: 10px 10px 5px 10px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.tarjeta:hover {
+    border: 25px solid rgb(16, 134, 5);
+    border-radius: 15%;
+}
+
+#gatito {
+    border: 20px solid rgb(222, 225, 19);
+}
+
+#gatito:hover {
+    border: 25px solid rgb(16, 134, 5);
+}
+
+#perrito {
+    border: 20px solid rgb(6, 142, 187);
+}
+
+#perrito:hover {
+    border: 25px solid rgb(16, 134, 5);
+}
+
+
+#cabrita {
+    border: 20px solid rgb(167, 21, 21);
+}
+
+#cabrita:hover {
+    border: 25px solid rgb(16, 134, 5);
+}
+
+#container {
+    background-color: crimson;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    border-radius: 25px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
