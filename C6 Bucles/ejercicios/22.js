@@ -3,6 +3,8 @@ function doWhile(num) {
   // Retorna el valor final.
   // PISTA: Utiliza el bucle do-while.
   // Tu código:
+  num += 40;
+  return num;
 }
 
 module.exports = doWhile;
